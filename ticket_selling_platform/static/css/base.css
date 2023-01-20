@@ -1,0 +1,250 @@
+
+body {
+    margin:0;
+    padding:0;
+    font-family:helvetica, sans-serif;
+}
+
+.content {
+    padding: 30px 100px;
+}
+
+.card{
+    margin-top: 5%;
+    height: 450px;
+}
+
+.event-desc {
+    float: left;
+    width: 20%;
+    padding-right: 1%;
+}
+
+.left-time{
+    padding-top: 1%;
+}
+
+.form {
+    margin-top: 5%;
+}
+
+.pagination {
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+svg {
+    display: block;
+    margin: auto;
+}
+
+.ticket_info {
+    font-weight: bolder;
+}
+
+.seats {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.rect {
+    stroke-width:3;
+}
+
+.seat {
+    height: 50px !important;;
+    width: 50px !important;
+}
+
+.time-left {
+    float: left;
+}
+
+.res-confirm-details {
+    font-size: 18px;
+    margin-bottom: 2%;
+}
+
+.payment-details {
+    font-size: 18px;
+}
+
+.reservation-detail {
+    float: right;
+}
+
+.vip {
+    background-color: #ffd96a !important;
+    border-color: #ffd96a !important;
+}
+
+.premium {
+    background-color: #5cbdcd  !important;
+    border-color: #5cbdcd  !important;
+}
+
+.regular{
+    background-color: #52b86a !important;
+    border-color: #52b86a !important;
+}
+
+
+.vip.chosen {
+    background-color: #e5ad06 !important;
+    border-color: #e5ad06 !important;
+}
+
+.premium.chosen {
+    background-color: #0d616e !important;
+    border-color: #0d616e !important;
+}
+
+.regular.chosen {
+    background-color: #295c35 !important;
+    border-color: #295c35 !important;
+}
+
+.booked:disabled, .booked {
+    background-color: #a6a6a6 !important;
+    border-color: black !important;
+}
+
+
+
+#warning {
+    color: red;
+}
+
+#header .res-check {
+    font-family: 'Muli', sans-serif;
+    float: right;
+    color: #000000;
+    font-size: 15px;
+    padding-top: 5px;
+    margin-right: 10%;
+}
+
+.card-text {
+    padding-top: 4%;
+}
+
+p {
+    line-height: 1.8;
+}
+
+
+a {
+    color:#12c064;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#00a74f;
+}
+
+h1, h2, h3, h4, h5 , h6 { font-family: 'Muli', sans-serif; font-weight:normal; }
+
+h1 {
+    border-bottom:1px solid #bbb;
+    padding:0 0 10px 0;
+    margin:10px 0 20px 0;
+}
+
+h2 {
+    margin:30px 0 20px;
+}
+
+ol {
+    line-height:1.5;
+}
+
+#header {
+    padding:10px 100px;
+    font-size:14px;
+    background:#12c064;
+    color:#fff;
+    border-bottom:4px solid #1cdf78;
+    overflow:auto;
+}
+
+#header .logo {
+    font-family: 'Muli', sans-serif;
+    float:left;
+    color:#f3f7cc;
+    font-size:20px;
+    margin-right:10%;
+}
+
+
+/* forms */
+form {
+    overflow:auto;
+}
+
+form p {
+    width:100%;
+    overflow:auto;
+}
+
+label {
+    float:left;
+    clear:both;
+    color:#333;
+    margin-bottom:4px;
+}
+input, textarea {
+    clear:both;
+    float:left;
+    background:#efefef;
+    border:0;
+    padding:6px 10px;
+    font-size:14px;
+}
+
+
+
+input[type=submit], a.button {
+    font-weight:bold;
+    background:#12c064;
+    color:#fff;
+    padding:10px 20px;
+    font-size:14px;
+    text-transform:uppercase;
+}
+
+.confirm, .cancel {
+    margin-top: 5%;
+}
+
+.confirm {
+    float: right;
+}
+
+a.cancel {
+    font-weight:bold;
+    background:#909090;
+    border: #909090;
+    color:#fff;
+    padding:10px 20px;
+    font-size:14px;
+    text-transform:uppercase;
+    float: left;
+}
+
+
+p label {
+    font-weight: bold;;
+}
+
+.btn:hover {
+    color: black;
+}
+
+
+.errorlist {
+    color: red;
+}
